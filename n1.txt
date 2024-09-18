@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/09/2024
+Var
+// Seção de Declarações das variáveis 
+N:vetor [0..9] de inteiro
+i: inteiro
+soma: inteiro
+media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+para i de 0 ate 9 faca
+escreval ("Digite um valor")
+leia (N[1])
+Soma <- Soma + N[1]
+
+fimpara
+media <- soma/10
+escreval ("A média é:", media)
+
+
+Fimalgoritmo
