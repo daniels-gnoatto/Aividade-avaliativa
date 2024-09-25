@@ -1,0 +1,38 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 23/09/2024
+Var
+   // Seção de Declarações das variáveis
+   base: inteiro
+   expoente: inteiro
+   resultado: real
+   i: inteiro
+   quantidade: inteiro
+   final: real
+   
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   escreval ("Escreva uma base")
+   leia (base)
+
+   escreval ("Qual o expoente")
+   leia (expoente)
+   resultado <- base * base
+   expoente <- expoente - 1
+   
+   para i de 2 ate expoente faca
+   resultado <- base * resultado
+
+   fimpara
+
+
+   escreval (resultado)
+
+
+Fimalgoritmo
